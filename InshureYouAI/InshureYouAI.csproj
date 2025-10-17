@@ -17,6 +17,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\snacked\ltr\assets\plugins\nicescroll\css\" />
+    <Folder Include="wwwroot\snacked\rtl\assets\plugins\nicescroll\css\" />
   </ItemGroup>
 
 </Project>
